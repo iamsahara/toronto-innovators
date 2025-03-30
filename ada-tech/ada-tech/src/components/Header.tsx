@@ -82,7 +82,7 @@ export default function Header() {
             }}
             onClick={() => handleNavClick("Home")}
           >
-            ADA Tech
+            ADA Tech - Toronto Innovators
           </Typography>
           <IconButton
   color="inherit"
