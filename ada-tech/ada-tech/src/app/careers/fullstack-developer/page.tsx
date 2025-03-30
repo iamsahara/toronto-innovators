@@ -25,7 +25,7 @@ export default function FullStackDeveloperPage() {
         </Typography>
 
         <Typography variant="body1" sx={{ mt: 4, mb: 3 }}>
-          ADA Tech is looking for a creative and capable Full Stack Developer to collaborate on next-gen web and mobile solutions for small businesses and startups. You'll work across our React + Node.js stack to bring real-world digital products to life — from business websites and e-commerce platforms to automation tools and AI-powered features.
+          ADA Tech is looking for a creative and capable Full Stack Developer to collaborate on next-gen web and mobile solutions for small businesses and startups. You&rsquo;ll work across our React + Node.js stack to bring real-world digital products to life — from business websites and e-commerce platforms to automation tools and AI-powered features.
         </Typography>
 
         <Typography variant="h6" fontWeight="bold" sx={{ mt: 4 }}>

@@ -10,9 +10,6 @@ export default function JobCard() {
   const theme = useTheme();
 
 
-  const handleViewDetails = () => {
-    router.push("/careers/fullstack-developer");
-  };
   const jobListings = [
     { title: "Full Stack Developer", location: "Remote", type: "Contract", open: true },
     { title: "UI/UX Designer", location: "Toronto, ON", type: "Part-Time", open: false },
