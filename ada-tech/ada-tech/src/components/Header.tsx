@@ -16,14 +16,10 @@ import {
 } from "@mui/material";
 import Image from "next/image";
 import MenuIcon from "@mui/icons-material/Menu";
-import { useTheme } from "@mui/material/styles";
 
-
-const drawerWidth = 220;
 const navItems = ["Home", "Services","Contact", "Careers", "Projects"];
 
 export default function Header() {
-  const theme = useTheme();
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleDrawerToggle = () => {

@@ -9,7 +9,7 @@ const tips = [
     icon: "💻",
     title: "Build a Professional Website",
     description:
-      "75% of consumers judge a business’s credibility based on website design. Invest in a responsive, mobile-friendly site to showcase your services and earn trust.",
+      "75% of consumers judge a business&apos;s credibility based on website design. Invest in a responsive, mobile-friendly site to showcase your services and earn trust.",
   },
   {
     icon: "📱",
@@ -27,7 +27,7 @@ const tips = [
     icon: "🚀",
     title: "Go Digital with Your Services",
     description:
-      "Online booking and digital consultations increase accessibility and efficiency. It’s not just convenient—it’s expected.",
+      "Online booking and digital consultations increase accessibility and efficiency. It&apos;s not just convenient—it&apos;s expected.",
   },
 ];
 
@@ -103,7 +103,7 @@ export default function SmallBusinessTips() {
                 fontSize: { xs: "1rem", md: "1.1rem" },
               }}
             >
-              Whether you're a growing startup or an established enterprise, our mission is simple: equip you with powerful digital tools to thrive in a connected world. From building trust online to driving real engagement, we deliver design and technology that adapts to your scale and vision.
+              Whether you&apos;re a growing startup or an established enterprise, our mission is simple: equip you with powerful digital tools to thrive in a connected world. From building trust online to driving real engagement, we deliver design and technology that adapts to your scale and vision.
             </Typography>
           </Box>
           {tips.map((tip, index) => (

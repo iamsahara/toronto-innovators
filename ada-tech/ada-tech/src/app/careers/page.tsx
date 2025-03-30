@@ -1,16 +1,12 @@
 "use client";
 
-import { useTheme } from "@mui/material/styles";
 import { Box, Typography, } from "@mui/material";
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
 import JobCard from "@/components/JobCard";
 
 
 
 export default function Careers() {
-  const theme = useTheme();
-  const router = useRouter();
 
   useEffect(() => {
     const hash = window.location.hash;

@@ -1,9 +1,7 @@
 "use client";
 import { Box, Typography, Button } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
 
 export default function Hero() {
-  const theme = useTheme();
   const handleNavClick = (id: string) => {
     const section = document.getElementById(id.toLowerCase());
     if (section) {
